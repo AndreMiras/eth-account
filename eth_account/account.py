@@ -55,7 +55,7 @@ from eth_account.signers.local import (
 )
 
 
-class Account(object):
+class Account:
     """
     The primary entry point for working with Ethereum private keys.
 
